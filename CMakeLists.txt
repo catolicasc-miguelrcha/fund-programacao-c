@@ -14,4 +14,4 @@ add_executable(fund-programacao-c main.c
         "Aula5  - Estrutura condicional e Estrutura de seleção/Exercicios/Lista/exercicio10.c"
         "Aula5  - Estrutura condicional e Estrutura de seleção/Exercicios/Lista/exercicio3.c"
         "Aula5  - Estrutura condicional e Estrutura de seleção/Exercicios/aula05-exercicio1.c"
-        "Aula5  - Estrutura condicional e Estrutura de seleção/Exercicios/aula5-exercicio2.c")
+        "Aula5  - Estrutura condicional e Estrutura de seleção/Exercicios/aula5-exercicio2.c"
