@@ -24,4 +24,6 @@ int main (void) {
     } else {
         printf("Turma Idosa");
     }
+
+    return 0;
 }

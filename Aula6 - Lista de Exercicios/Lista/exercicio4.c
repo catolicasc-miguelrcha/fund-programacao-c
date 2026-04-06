@@ -17,7 +17,7 @@ int main (void) {
     scanf("%d", &nota3);
     fflush(stdin);
 
-    calc = nota1 + nota2 + nota3;
+    calc = nota1 + nota2 + nota3 / 3;
 
     if (calc >= 7) {
         printf("Aprovado");
@@ -28,4 +28,6 @@ int main (void) {
     } else {
         printf("Erro");
     }
+
+    return 0;
 }
