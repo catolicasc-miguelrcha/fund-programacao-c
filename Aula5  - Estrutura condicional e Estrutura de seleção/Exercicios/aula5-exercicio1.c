@@ -5,8 +5,9 @@ int main(void) {
 
     printf("Digite um numero: ");
     scanf("%f", &x);
+    fflush(stdin);
 
-    if (x == (int)x) {
+    if (x == (int) x) {
         printf(" %.2f e inteiro", x);
     } else {
         printf("%.2f e quebrado", x);

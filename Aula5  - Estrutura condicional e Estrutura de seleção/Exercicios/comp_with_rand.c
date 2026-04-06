@@ -6,6 +6,7 @@ int main(void) {
 
     // Rand() que não gera rand kappa
     int x, y = rand();
+    fflush(stdin);
 
     if (x > y) {
         printf("O maior numero e o 1 => %i\n", x);

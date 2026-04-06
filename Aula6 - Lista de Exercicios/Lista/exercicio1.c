@@ -5,8 +5,10 @@ int main (void) {
 
     printf ("Insira o primeiro numero: ");
     scanf ("%d", &x);
+    fflush(stdin);
     printf ("Insira o segundo numero:");
     scanf ("%d", &y);
+    fflush(stdin);
 
     if (x > y) {
         printf("O primeiro numero e maior");
