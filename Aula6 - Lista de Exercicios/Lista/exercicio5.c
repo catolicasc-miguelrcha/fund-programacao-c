@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main (void) {
+int main(void) {
     int idade, calc;
 
     for (int i = 1; i <= 4; i++) {
@@ -17,9 +17,9 @@ int main (void) {
 
     calc = calc / 4;
 
-    if (calc < 25 ) {
+    if (calc < 25) {
         printf("Turma Jovem");
-    } else if (calc == 25 && calc <= 45 ) {
+    } else if (calc == 25 && calc <= 45) {
         printf("Turma Adulta");
     } else {
         printf("Turma Idosa");

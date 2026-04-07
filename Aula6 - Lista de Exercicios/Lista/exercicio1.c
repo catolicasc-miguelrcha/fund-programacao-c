@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int main (void) {
+int main(void) {
     int x, y;
 
-    printf ("Insira o primeiro numero: ");
-    scanf ("%d", &x);
+    printf("Insira o primeiro numero: ");
+    scanf("%d", &x);
     fflush(stdin);
-    printf ("Insira o segundo numero:");
-    scanf ("%d", &y);
+    printf("Insira o segundo numero:");
+    scanf("%d", &y);
     fflush(stdin);
 
     if (x > y) {
