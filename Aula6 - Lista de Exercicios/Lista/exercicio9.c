@@ -7,6 +7,7 @@
 int main(void) {
     int choice, x, y, soma;
 
+
     printf("Bem-vindo a Calculadora da Catolica do Miguel\n");
     printf("Digite um numero: ");
     scanf("%i", &x);
