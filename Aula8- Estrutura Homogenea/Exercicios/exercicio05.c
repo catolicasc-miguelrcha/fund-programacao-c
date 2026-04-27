@@ -4,20 +4,25 @@
 
 #include <stdio.h>
 
-int main(void) {
+int main (void) {
 
-    int v[8];
+    int v[5];
     int sum = 0;
+    float media;
 
-    for (int i = 0; i < 9; i++) {
+    for (int i = 0; i < 5; i++) {
         printf("Digite um valor: ");
         scanf("%d", &v[i]);
         fflush(stdin);
     }
 
-    for (int i = 0; i < 8; i++) {
+    for (int i = 0; i < 5; i++) {
         sum = sum + v[i];
     }
 
-    printf("sum: %d\n", sum);
+    media = sum / 5;
+
+    printf("media: %f\n", media);
+
+    return 0;
 }

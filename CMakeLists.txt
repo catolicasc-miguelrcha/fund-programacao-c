@@ -15,3 +15,6 @@ add_executable(fund-programacao-c main.c
         "Aula6 - Lista de Exercicios/Lista/exercicio3.c"
         "Aula5  - Estrutura condicional e Estrutura de seleção/Exercicios/aula5-exercicio1.c"
         "Aula5  - Estrutura condicional e Estrutura de seleção/Exercicios/aula5-exercicio2.c"
+        "Aula8- Estrutura Homogenea/Exercicios/exercicio01.c"
+        "Aula8- Estrutura Homogenea/main.c"
+        "Aula8- Estrutura Homogenea/matriz.c"
